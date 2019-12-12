@@ -6,6 +6,7 @@ export default class SongList extends Component {
             <div>
                 I want it that way
             </div>
+            
         )
     }
 }
