@@ -4,7 +4,7 @@ export default class SongList extends Component {
     render() {
         return (
             <div>
-                Conflicts happend
+                I want it that way
             </div>
         )
     }
