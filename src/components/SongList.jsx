@@ -4,7 +4,7 @@ export default class SongList extends Component {
     render() {
         return (
             <div>
-                
+                I want it that way
             </div>
         )
     }
