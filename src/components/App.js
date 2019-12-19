@@ -1,10 +1,17 @@
 import React from "react";
 import { selectSongs } from '../actions';
+import SongList from './SongList';
 
-export default function App() {
+const App = () => {
   return (
-    <div>
-      <h1>App</h1>
+    <div className="ui container grid">
+      <div className="ui row">
+        <div className="column eight wide">
+          <SongList/>
+        </div>
+      </div>
     </div>
   );
 }
+
+export default App;
