@@ -1,4 +1,4 @@
-export const selectSongs = songname => {
+export const selectSong = songname => {
   // Return an action
   return {
     type: "SONG_SELECTED",
